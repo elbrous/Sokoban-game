@@ -1,0 +1,29 @@
+#game-container {
+    display: grid;
+    grid-template-columns: repeat(5, 50px); /* Adjust columns based on your needs */
+    gap: 2px;
+}
+
+.tile {
+    width: 50px;
+    height: 50px;
+    border: 1px solid #000;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.wall {
+    background-color: #333;
+}
+
+.player {
+    background-color: #00f;
+}
+
+.block {
+    background-color: #f00;
+}
+
+.target {
+    background-color: #0f0;
+}
